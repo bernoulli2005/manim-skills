@@ -1,6 +1,6 @@
 ---
 name: manim-animations
-description: Manim skill for animation classes, .animate syntax, timing, transforms, rate functions, and animation choreography.
+description: Manim animation selection for `.animate`, Create, FadeIn, FadeOut, Write, Transform, ReplacementTransform, rate functions, timing, and multi-step choreography.
 ---
 
 # Manim Animations
@@ -55,4 +55,3 @@ Use this skill when the task is about motion itself: which animation class to us
 ## References
 
 - [Animation reference guide](references/animations.md)
-

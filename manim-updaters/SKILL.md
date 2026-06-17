@@ -1,6 +1,6 @@
 ---
 name: manim-updaters
-description: Manim skill for continuous motion, ValueTracker patterns, always_redraw, and updater-based dynamic scenes.
+description: Manim updater workflows for continuous motion, ValueTracker, add_updater, always_redraw, and any scene where labels, lines, or derived mobjects must stay synchronized.
 ---
 
 # Manim Updaters
@@ -53,4 +53,3 @@ If an object must keep reflecting another object or variable, do not manually re
 ## References
 
 - [Updater reference guide](references/updaters.md)
-

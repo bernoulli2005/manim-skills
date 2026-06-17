@@ -1,6 +1,6 @@
 ---
 name: manim-mobjects
-description: Manim skill for creating, styling, grouping, positioning, and transforming mobjects and vectorized objects.
+description: Manim mobject construction for shapes, grouping, positioning, styling, layout, VMobject structure, and transforms such as MoveTo, NextTo, Arrange, and ReplacementTransform.
 ---
 
 # Manim Mobjects
@@ -74,4 +74,3 @@ Use this skill when the task is about the objects you place on screen: shapes, g
 ## References
 
 - [Building blocks tutorial](references/mobjects.md)
-

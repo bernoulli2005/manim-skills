@@ -1,6 +1,6 @@
 ---
 name: manim-generals
-description: Broad Manim workflow skill for planning scenes, choosing render settings, and routing to the right Manim specialist skill.
+description: General Manim planning, scene architecture, render strategy, and skill routing for projects that use Scene, MovingCameraScene, ThreeDScene, or need help choosing between text, mobjects, animations, graphing, and updaters.
 ---
 
 # Manim Generals
@@ -60,4 +60,3 @@ Use this skill for general Manim work: project setup, scene planning, render str
 - [Updater guide](../manim-updaters/references/updaters.md)
 - [Graphing guide](../manim-graphing/references/graphing.md)
 - [Text and TeX guide](../manim-text-tex/references/text-tex.md)
-

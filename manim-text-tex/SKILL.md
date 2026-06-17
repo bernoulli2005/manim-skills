@@ -1,6 +1,6 @@
 ---
 name: manim-text-tex
-description: Manim skill for Text, MarkupText, Tex, MathTex, formulas, captions, and text layout.
+description: Manim text and formula rendering for Text, MarkupText, Paragraph, Tex, MathTex, captions, labels, derivations, and mixed prose-plus-math layouts.
 ---
 
 # Manim Text and TeX
@@ -49,4 +49,3 @@ Use this skill when the scene needs readable prose, labels, captions, formulas, 
 ## References
 
 - [Text and formula guide](references/text-tex.md)
-

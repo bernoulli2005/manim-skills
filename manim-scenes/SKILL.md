@@ -1,6 +1,6 @@
 ---
 name: manim-scenes
-description: Scene-level Manim skill for construct methods, play/wait/add/remove flow, sections, and camera-driven scene structure.
+description: Scene-level Manim workflow for writing and organizing construct methods, play/wait/add/remove flow, scene sections, multi-scene files, MovingCameraScene, ThreeDScene, and output/render behavior.
 ---
 
 # Manim Scenes
@@ -71,4 +71,3 @@ Use this skill when the task is about how a Manim scene is structured: `construc
 
 - [Official Scene API](references/scenes.md)
 - [Output and config overview](references/output-and-config.md)
-

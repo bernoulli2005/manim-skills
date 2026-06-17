@@ -1,6 +1,6 @@
 ---
 name: manim-graphing
-description: Manim skill for Axes, NumberPlane, FunctionGraph, graphs, coordinate systems, and chart-style visualizations.
+description: Manim graphing and coordinate-system workflows for Axes, NumberPlane, NumberLine, FunctionGraph, ParametricFunction, ImplicitFunction, ComplexPlane, PolarPlane, and chart-style visualizations.
 ---
 
 # Manim Graphing
@@ -62,4 +62,3 @@ Use this skill when the scene is built around axes, curves, coordinate systems, 
 ## References
 
 - [Coordinate system reference](references/graphing.md)
-
