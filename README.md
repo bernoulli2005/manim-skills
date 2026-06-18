@@ -5,6 +5,8 @@ This repository packages a set of Codex skills for working with Manim Community 
 ## What is in this repo
 
 - `manim-generals`
+- `manim-composer`
+- `manimce-best-practices`
 - `manim-scenes`
 - `manim-mobjects`
 - `manim-animations`
@@ -20,6 +22,8 @@ Use `npx skills` to install a specific skill from this repo.
 
 ```bash
 npx skills add bernoulli2005/manim-skills/manim-generals
+npx skills add bernoulli2005/manim-skills/manim-composer
+npx skills add bernoulli2005/manim-skills/manimce-best-practices
 npx skills add bernoulli2005/manim-skills/manim-scenes
 ```
 
@@ -38,6 +42,8 @@ npx skills add https://github.com/bernoulli2005/manim-skills/tree/main/manim-gen
 ## Skill map
 
 - `manim-generals`: entry point for planning, render strategy, and skill selection
+- `manim-composer`: turn vague video ideas into a scene-by-scene plan
+- `manimce-best-practices`: implementation guidance for Manim Community Edition
 - `manim-scenes`: scene lifecycle, `construct()`, `play()`, `wait()`, and camera structure
 - `manim-mobjects`: objects, layout, grouping, and transforms
 - `manim-animations`: animation classes, `.animate`, timing, and choreography
@@ -50,4 +56,3 @@ npx skills add https://github.com/bernoulli2005/manim-skills/tree/main/manim-gen
 - These skills follow the open agent skills format.
 - The repo is organized for reuse as a GitHub-hosted skills bundle.
 - If you change a skill, restart Codex so it picks up the update.
-
