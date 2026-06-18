@@ -1,6 +1,6 @@
 ---
 name: manimce-best-practices
-description: Manim Community Edition implementation guidance for scenes, camera control, animations, text, lines, CLI usage, and version-safe coding patterns. Use when writing or reviewing ManimCE code, choosing API patterns, debugging renders, or translating a plan into code.
+description: Manim Community Edition implementation hub for scenes, camera, animations, text, lines, CLI workflow, and version-safe coding patterns. Use when writing or reviewing ManimCE code, debugging renders, or translating a plan into code, and route to tighter skills like manimce-camera, manimce-text, or manimce-cli when the task is specialized.
 ---
 
 # ManimCE Best Practices
@@ -41,11 +41,10 @@ Use this skill when you are implementing Manim Community Edition code or reviewi
 ## Topic Guides
 
 - [Scene structure](references/scenes.md)
-- [Camera and framing](references/camera.md)
-- [Animation patterns](references/animations.md)
-- [Text and LaTeX](references/text.md)
-- [Lines and strokes](references/lines.md)
-- [CLI and render workflow](references/cli.md)
 - [Compatibility notes](references/version-notes.md)
 - [Scene examples](references/scene-examples.md)
-
+- For camera-specific work, use `manimce-camera`.
+- For text-specific work, use `manimce-text`.
+- For CLI-specific work, use `manimce-cli`.
+- For animation-specific work, use `manim-animations`.
+- For scene orchestration, use `manim-scenes`.

@@ -7,6 +7,9 @@ This repository packages a set of Codex skills for working with Manim Community 
 - `manim-generals`
 - `manim-composer`
 - `manimce-best-practices`
+- `manimce-camera`
+- `manimce-text`
+- `manimce-cli`
 - `manim-scenes`
 - `manim-mobjects`
 - `manim-animations`
@@ -24,6 +27,9 @@ Use `npx skills` to install a specific skill from this repo.
 npx skills add bernoulli2005/manim-skills/manim-generals
 npx skills add bernoulli2005/manim-skills/manim-composer
 npx skills add bernoulli2005/manim-skills/manimce-best-practices
+npx skills add bernoulli2005/manim-skills/manimce-camera
+npx skills add bernoulli2005/manim-skills/manimce-text
+npx skills add bernoulli2005/manim-skills/manimce-cli
 npx skills add bernoulli2005/manim-skills/manim-scenes
 ```
 
@@ -44,6 +50,9 @@ npx skills add https://github.com/bernoulli2005/manim-skills/tree/main/manim-gen
 - `manim-generals`: entry point for planning, render strategy, and skill selection
 - `manim-composer`: turn vague video ideas into a scene-by-scene plan
 - `manimce-best-practices`: implementation guidance for Manim Community Edition
+- `manimce-camera`: camera framing, zooms, and pans
+- `manimce-text`: text, formulas, and label layout
+- `manimce-cli`: command-line rendering and debug workflow
 - `manim-scenes`: scene lifecycle, `construct()`, `play()`, `wait()`, and camera structure
 - `manim-mobjects`: objects, layout, grouping, and transforms
 - `manim-animations`: animation classes, `.animate`, timing, and choreography
