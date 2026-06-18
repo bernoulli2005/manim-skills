@@ -59,6 +59,29 @@ Use this skill when the scene is built around axes, curves, coordinate systems, 
 - If the graph is dynamically changing, pair it with updaters or `always_redraw`.
 - The graph should teach the relationship, not just display the equation.
 
+## Common Graph Recipes
+
+- Plot a function, label the curve, then shade a region of interest.
+- Show a point moving along a curve while a coordinate readout updates.
+- Compare two curves on the same axes with different styles.
+- Use a number line for scalar progression or one-dimensional motion.
+- Use a complex plane for rotation-and-scaling narratives.
+
+## Coordinate Selection
+
+- Choose `Axes` for standard algebra, calculus, and general explainer plots.
+- Choose `NumberPlane` when the grid is part of the visual language.
+- Choose `ComplexPlane` when the story is about complex numbers or transformations.
+- Choose `PolarPlane` when radial or angular meaning is central.
+- Choose `ThreeDAxes` only if 3D geometry is essential to the explanation.
+
+## Debugging Hints
+
+- If a graph is clipped, expand the coordinate range before adjusting decorations.
+- If labels overlap, move the labels after the graph is correct.
+- If a dynamic graph flickers, rebuild the derived object with `always_redraw`.
+- If the scene feels busy, reduce the number of annotations before changing the plot itself.
+
 ## References
 
 - [Coordinate system reference](references/graphing.md)

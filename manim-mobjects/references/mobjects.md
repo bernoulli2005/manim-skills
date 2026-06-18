@@ -49,3 +49,23 @@ Mobjects are the basic building blocks of Manim animations. They represent any o
 - Keep labels close to what they describe.
 - Prefer semantic names like `title`, `axes`, `legend`, `highlight`, `marker`.
 
+## Example Object Constructions
+
+- A card or panel: rounded rectangle plus title and body text.
+- A node-link diagram: repeated nodes connected by arrows or lines.
+- A callout: connector line, pointer tip, and label in one grouped unit.
+- A spotlight effect: duplicate the target with a translucent overlay.
+
+## Transform Tips
+
+- Use compatible geometry when you want a clean morph.
+- Use copying when one object should remain visible while another changes.
+- Use replacements when the viewer should perceive a handoff.
+- Group related subobjects before attempting more complex layout changes.
+
+## Debugging Hints
+
+- If objects overlap unexpectedly, inspect the order of creation and `add()`.
+- If a label drifts, anchor it with `next_to` or an updater.
+- If a group looks uneven, normalize dimensions before arranging.
+- If a transform looks broken, simplify the difference between source and target.

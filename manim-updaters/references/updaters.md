@@ -29,3 +29,22 @@ Updaters let mobjects respond continuously as the scene progresses.
 - If several objects depend on the same value, centralize that value in a tracker.
 - If an updater is hard to maintain, switch to `always_redraw` or a simpler animation sequence.
 
+## Example Patterns
+
+- Attach a label to a moving point and keep the label offset stable.
+- Drive the endpoint of a line from a tracker so the length changes live.
+- Redraw a brace or highlight around a changing region.
+- Keep a numeric readout synchronized with a parameter sweep.
+
+## Operational Notes
+
+- Prefer updaters when the relationship between objects matters more than the exact animation path.
+- Prefer direct animations when the final state is all the viewer needs.
+- Keep one source of truth for each changing quantity.
+
+## Debugging Hints
+
+- If a live object jitters, simplify the geometry or reduce the number of dependent updates.
+- If a label jumps, make sure its anchor point stays stable.
+- If a tracker-driven object behaves oddly, inspect the tracker value before animating.
+- If an updater chain becomes hard to reason about, replace one layer with a more explicit animation.

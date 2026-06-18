@@ -52,6 +52,28 @@ Use this skill for general Manim work: project setup, scene planning, render str
 - When a scene has several independent parts, split them into smaller scenes instead of one giant `construct()`.
 - Prefer deterministic naming and small helper methods so the scene is easy to revisit.
 
+## Routing Examples
+
+- If the user asks for a title card, route to `manim-scenes` first, then use `manim-animations` for the motion.
+- If the user asks for a labeled diagram, route to `manim-mobjects` and `manim-text-tex`.
+- If the user asks for a plot or chart, route to `manim-graphing`.
+- If the user asks for a live-changing value or pointer, route to `manim-updaters`.
+- If the user asks for a multi-beat reveal or morph, route to `manim-animations`.
+
+## What To Ask Next
+
+- Ask what idea the animation should teach, not just what it should look like.
+- Ask whether the composition is static, sequential, or continuously changing.
+- Ask whether the camera should stay fixed or become part of the story.
+- Ask whether the user wants a quick draft or a polished final render.
+
+## Do Not
+
+- Do not start with advanced helpers when a minimal scene can prove the idea.
+- Do not use 3D unless depth or camera rotation is necessary.
+- Do not use LaTeX for every text element by default.
+- Do not choose updaters for one-off changes that are clearer as discrete animations.
+
 ## References
 
 - [Scene workflow](../manim-scenes/references/scenes.md)

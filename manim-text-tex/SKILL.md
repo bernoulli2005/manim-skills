@@ -46,6 +46,28 @@ Use this skill when the scene needs readable prose, labels, captions, formulas, 
 - Letting formulas collide with surrounding graphics.
 - Mixing too many font styles without a deliberate hierarchy.
 
+## Practical Selection Guide
+
+- Use `Text` for regular prose and UI-like captions.
+- Use `MarkupText` when you need emphasis inside a single text block.
+- Use `Paragraph` for multi-line blocks that should stack naturally.
+- Use `MathTex` when symbolic fidelity matters most.
+- Use `Tex` when the content is LaTeX-like text rather than a bare formula.
+
+## Layout Patterns
+
+- Pair a formula with a short annotation that states the meaning.
+- Build derivations line by line and keep the active line visually dominant.
+- Place labels close to the objects they describe.
+- Break long text into staged reveals rather than one crowded frame.
+
+## Debugging Hints
+
+- If text renders too small, increase font size before reworking the layout.
+- If math parsing fails, isolate the smallest failing fragment.
+- If labels collide with graphics, move the graphic first and the label second.
+- If the scene becomes text-heavy, split it into multiple beats or scenes.
+
 ## References
 
 - [Text and formula guide](references/text-tex.md)

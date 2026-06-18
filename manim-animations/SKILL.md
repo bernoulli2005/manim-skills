@@ -52,6 +52,20 @@ Use this skill when the task is about motion itself: which animation class to us
 - Animation overrides can make a mobject respond specially to a class of animations.
 - When animation choices become hard to read, simplify the motion design before adding more complexity.
 
+## Example Sequences
+
+- Intro: `FadeIn` title, `Create` diagram, `Write` labels.
+- Comparison: `Transform` old diagram into new diagram, then `Indicate` the changed part.
+- Emphasis: `Circumscribe` a region, `Flash` a point, then continue.
+- Progressive reveal: use `LaggedStart` to introduce elements one by one.
+
+## Debugging Hints
+
+- If the animation feels too fast, increase `run_time` before adding effects.
+- If two objects should move together, group them into the same animation call.
+- If a transform looks broken, simplify the source and target shapes.
+- If emphasis feels noisy, remove extra effects and keep one primary highlight.
+
 ## References
 
 - [Animation reference guide](references/animations.md)

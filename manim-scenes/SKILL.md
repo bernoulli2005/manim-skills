@@ -67,6 +67,29 @@ Use this skill when the task is about how a Manim scene is structured: `construc
 - If a scene becomes unwieldy, split it into smaller scenes rather than overloading one `construct()`.
 - The output folder structure matters when debugging missing videos or partial renders.
 
+## Scene Planning Checklist
+
+- Decide the scene thesis before writing code.
+- List the beats in order.
+- Mark which objects are static and which ones move.
+- Decide where pauses are needed.
+- Confirm whether the camera is part of the narrative.
+
+## Common Scene Patterns
+
+- Title card, explanation, payoff.
+- Diagram build, highlight, summary.
+- Compare-and-contrast with synchronized changes.
+- Stepwise derivation with one active line at a time.
+- Zoom-in inspection followed by a return to overview.
+
+## Debugging Hints
+
+- If the motion feels crowded, add more pauses or split the scene.
+- If content is hard to read, reduce simultaneous motion.
+- If a camera move feels unnecessary, remove it and improve layout instead.
+- If the render is blank, verify that `construct()` actually adds or animates content.
+
 ## References
 
 - [Official Scene API](references/scenes.md)

@@ -30,3 +30,16 @@ Manim animations are the mechanisms that change mobjects over time.
 - When a transition feels messy, simplify the source and target mobjects rather than forcing the animation class to do all the work.
 - Staggered reveals are helpful for lists, diagrams, and network structures.
 
+## Example Sequences
+
+- Intro: `FadeIn` title, `Create` diagram, `Write` labels.
+- Comparison: `Transform` one diagram into another, then `Indicate` the changed part.
+- Emphasis: `Circumscribe` a region, `Flash` a point, then continue.
+- Progressive reveal: use `LaggedStart` to introduce elements one by one.
+
+## Debugging Hints
+
+- If the animation feels too fast, increase `run_time` before adding effects.
+- If two objects should move together, put them in the same animation call.
+- If a transform looks broken, simplify the source and target shapes.
+- If emphasis feels noisy, remove extra effects and keep one primary highlight.

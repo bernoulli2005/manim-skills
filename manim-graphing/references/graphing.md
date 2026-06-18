@@ -38,3 +38,23 @@ Manim provides a family of coordinate-system mobjects for plots and numeric diag
 - Use graph helpers instead of manually drawing repeated geometry.
 - When the graph changes during the scene, let the coordinate system drive the derived elements.
 
+## Example Graph Workflows
+
+- Plot a function, label the curve, then shade a region of interest.
+- Show a point moving along a curve while a coordinate readout updates.
+- Compare two curves on the same axes with different styles.
+- Use a number line for scalar progression or one-dimensional motion.
+- Use a complex plane for rotation-and-scaling narratives.
+
+## Data Presentation Notes
+
+- Prefer explicit labels over visual guesswork.
+- Keep the legend or key minimal and close to the plotted content.
+- Use color consistently across related objects and labels.
+- If the axes are decorative as well as functional, keep them visually light.
+
+## Debugging Hints
+
+- If a graph label is mispositioned, anchor it relative to the graph point rather than the raw scene point.
+- If a dynamic graph flickers, use a more stable updater pattern or rebuild the derived object with `always_redraw`.
+- If the coordinate system feels crowded, simplify the range before simplifying the visuals.

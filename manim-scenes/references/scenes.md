@@ -40,3 +40,22 @@ Use a scene in this order:
 - Scene names matter because the render output is keyed by the scene class.
 - For repeated local tweaking, keep a stable folder layout and use a local config file instead of retyping CLI flags.
 
+## Example Scene Structure
+
+1. Establish the topic with a title or intro frame.
+2. Introduce the main object or diagram.
+3. Animate the core change or proof step.
+4. Add an emphasis beat.
+5. Close with a summary or takeaway.
+
+## Camera Usage
+
+- Use the camera to change framing, not to compensate for poor layout.
+- Reserve zooms for moments where close inspection improves understanding.
+- Keep camera moves smooth and purposeful.
+
+## Minimal Scene Thinking
+
+- Start with one object, one label, one transition.
+- Add the next layer only after the base render is correct.
+- Move repeated logic into helper methods once the structure is clear.

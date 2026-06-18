@@ -30,3 +30,16 @@ Manim supports two main text pipelines:
 - Keep equations readable at video scale.
 - Break long derivations into staged reveals rather than a single crowded frame.
 
+## Example Layouts
+
+- Title plus subtitle with a small explanatory note.
+- Formula on one line and meaning on the next.
+- A derivation that highlights the active term while dimming the rest.
+- Labels attached to graphs, arrows, and highlighted regions.
+
+## Debugging Hints
+
+- If text renders too small, increase font size before reworking the layout.
+- If math parsing fails, isolate the smallest failing fragment.
+- If labels collide with graphics, move the graphic first and the label second.
+- If the scene becomes text-heavy, split it into multiple beats or scenes.

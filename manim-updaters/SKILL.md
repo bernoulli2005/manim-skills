@@ -50,6 +50,13 @@ If an object must keep reflecting another object or variable, do not manually re
 - Some renderers and scene setups expose updater behavior differently, so test the exact render path you intend to ship.
 - If a derived object gets out of sync, rewrite it as `always_redraw` before adding more manual bookkeeping.
 
+## Debugging Hints
+
+- If a live object jitters, simplify the geometry or reduce the number of dependent updates.
+- If a label jumps, make sure its anchor point stays stable.
+- If a tracker-driven object behaves oddly, inspect the tracker value before animating.
+- If an updater chain becomes hard to reason about, replace one layer with a more explicit animation.
+
 ## References
 
 - [Updater reference guide](references/updaters.md)

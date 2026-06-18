@@ -71,6 +71,27 @@ Use this skill when the task is about the objects you place on screen: shapes, g
 - Use vectorized shapes when you want smooth transforms and clean scaling.
 - Keep layout logic separate from animation logic when possible.
 
+## Common Object Recipes
+
+- Build a labeled node from a shape, a text label, and a small offset group.
+- Build a callout from a connector line, a pointer, and a short annotation.
+- Build a panel from a rounded rectangle, a title, and body content.
+- Build emphasis with a translucent highlight layered behind the target object.
+
+## Transform Tips
+
+- Use compatible geometry when you want a clean morph.
+- Use copying when one object should remain visible while another changes.
+- Use replacements when the viewer should perceive a handoff.
+- Group related subobjects before attempting more complex layout changes.
+
+## Debugging Hints
+
+- If objects overlap unexpectedly, inspect the order of creation and `add()`.
+- If a label drifts, anchor it with `next_to` or an updater.
+- If a group looks uneven, normalize dimensions before arranging.
+- If a transform looks broken, simplify the difference between source and target.
+
 ## References
 
 - [Building blocks tutorial](references/mobjects.md)
